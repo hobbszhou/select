@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/zhb/baiwang/2-26To2-38/client/client.cpp
+windows.h
+-
+WinSock2.h
+-
+unistd.h
+-
+arpa/inet.h
+-
+stdio.h
+-
+thread
+-
+string.h
+-
+
